@@ -22,16 +22,15 @@
 /*******************************************/
 
 html {
-    font-size: 67.5%;
+    font-size: 62.5%;
 }
 
 body {
-    padding: 0;
     background-color: rgb(5,5,5);
-    font-family: sans-serif;
+    font-family: "Netflix sans", "sans-serif";
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 img {
@@ -45,13 +44,9 @@ a {
 }
 
 /******************************************
-/* LAYOUT
-/*******************************************/
-
-
-/******************************************
 /* NAVIGATION
 /*******************************************/
+
 nav {
     padding: 10px 0;
     width: 95%;
@@ -99,9 +94,9 @@ nav {
 .hero-bg {
     background: url(../images/netflix-bg.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center;
-    height: 650px;
+    height: 510px; /******/
     width: 100%;
     border-bottom: 8px solid rgb(32, 32, 32);
 }
@@ -118,7 +113,7 @@ nav {
     align-items: center;
     justify-content: center;
     color: #fff;
-    padding: 80px 0px;
+    padding: 38px 0px;
     width: 95%;
     max-width: 900px;
     margin: auto;
@@ -144,14 +139,14 @@ nav {
 .email {
     border: 1px solid gray;
     border-radius: 5px;
-    background: rgba(9, 9, 9, 0.7);
+    background: rgba(9, 9, 9, 0.4);
     outline: none;
     color: #fff;
     padding: 20px 16px;
     width: 100%;
     max-width: 294px;
     height: 48px;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 .submit {
@@ -160,24 +155,19 @@ nav {
     color: #fff;
     border-radius: 5px;
     border: none;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 700;
     outline: none;
     
 }
 
+/******************************************
+/* LAYOUT
+/*******************************************/
 
 
 
 
-
-header {
-
-}
-
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
