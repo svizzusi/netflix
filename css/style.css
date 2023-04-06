@@ -245,23 +245,8 @@ nav {
     margin-bottom: 1px;
 }
 
-.accordion:hover {
+.active, .accordion:hover {
     background: rgb(69,69,69);
-}
-
-.accordion:after{
-    content: "\02795";
-    font-size: 1.8rem;
-    color: #fff;
-    float: right;
-    /* margin: 5px; */
-}
-
-.active:after {
-    content: "\0058";
-    font-size: 1.8rem;
-    color: #fff;
-    float: right;
 }
 
 .panel {
@@ -278,3 +263,83 @@ nav {
     margin-top: 10px;
 }
 
+.accordion:after{
+    content: "\02795";
+    font-size: 1.8rem;
+    color: #fff;
+    float: right;
+}
+
+.active:after {
+    content: "\0058";
+    font-size: 1.8rem;
+    color: #fff;
+    float: right;
+}
+
+/******************************************
+/* Subscribe Section
+/*******************************************/
+
+.subscribe-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 1.6rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5.6rem;
+    border-bottom: 8px solid rgb(32, 32, 32);
+}
+
+.subscribe-section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.subscribe-section h4 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+/******************************************
+/* Footer
+/*******************************************/
+
+footer {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    color: #ffffffB3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.4rem;
+    padding: 20px 0;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer select {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: none;
+    color: #fff;
+    padding: 5px;
+    width: 80px;
+}
