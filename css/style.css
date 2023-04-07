@@ -252,6 +252,7 @@ nav {
 .panel {
     background: rgb(40,40,40);
     width: 100%;
+    font-size: 1.8rem;
     height: fit-content;
     padding: 24px;
     color: #fff;
@@ -407,5 +408,91 @@ footer select {
 
     .container-text {
         max-width: 95%;
+    }
+
+    .panel {
+        font-size: 2.4rem;
+    }
+
+    .accordion {
+        font-size: 2.4rem;
+    }
+    
+    .subscribe-section form {
+        flex-direction: row;
+        gap: 8px;
+        margin-top: 16px;
+    }
+
+    .subscribe-section form .email{
+        width: 376px;
+    }
+
+    .subscribe-section form .submit {
+            height: 56px;     
+    }
+
+    .subscribe-section h4 {
+        max-width: 80%;
+    }
+
+    footer {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        color: #ffffffB3;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 1.4rem;
+        padding: 20px 0;
+    }
+
+    footer h6 {
+        font-size: 1.6rem;
+    }
+    
+    footer a {
+        text-decoration: underline;
+    }
+    
+    footer ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    footer ul > div {
+        width: 100%;
+        max-width: 226px;
+    }
+
+    footer ul li {
+        padding: 8px 0;
+    }
+
+    footer ul > div:nth-child(1) {
+        /* background-color: #E50914; */
+        margin-right: .2rem;
+    }
+
+    footer ul > div:nth-child(2) {
+        /* background-color: blue; */
+        margin-right: .2rem;
+    }
+
+    footer ul > div:nth-child(3) {
+        /* background-color: yellow; */
+    }
+
+    footer ul > div:nth-child(4) {
+        /* background-color: green; */
+    }
+
+    footer select {
+        padding: 6px 0;
+        width: 131px;
+        height: 32px;
+        font-size: 1.6rem;
+        text-align: center;
     }
 }
