@@ -336,6 +336,14 @@ footer ul {
     list-style: none;
 }
 
+footer ul li {
+    padding: 8px 0;
+}
+
+footer h6 {
+    font-size: 1.6rem;
+}
+
 footer select {
     border: 1px solid gray;
     border-radius: 5px;
