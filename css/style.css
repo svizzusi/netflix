@@ -343,3 +343,69 @@ footer select {
     padding: 5px;
     width: 80px;
 }
+
+
+/******************************************
+/* Media Queries
+/*******************************************/
+
+@media screen and (min-width:768px){
+    .nav-link > select {
+        padding: 6px 0;
+        width: 131px;
+        height: 32px;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .hero-bg {
+        background-size: 150%;
+        background-position: bottom center;
+        height: 512px; 
+    }
+
+    .hero-section {
+        flex-direction: column;
+        padding: 0px 0px;
+        padding-top: 11.2rem;
+    }
+    
+    .hero-text {
+        max-width: 100%;
+    }
+    
+    .hero-form > form {
+        flex-direction: row;
+        gap: 8px;
+        margin-top: 16px;
+    }
+    .email {
+        padding: 20px 16px;
+        margin-top: 0;
+        width: 100%;
+        max-width: 368px;
+        height: 56px;
+    }
+    
+    .submit {
+        padding: 12px 24px;
+        font-size: 2.4rem;
+        height: 56px;     
+    }
+
+    .container {
+        min-height: 750px;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+    }
+     
+    .container-header {
+        margin-top: -32px;
+    
+    }
+
+    .container-text {
+        max-width: 95%;
+    }
+}
