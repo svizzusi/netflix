@@ -1,0 +1,197 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(0,0,0);
+    font-family: "Noto Sans Display", "sans-serif";
+    color: #fff;
+}
+
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/******************************************
+/* HEADER
+/*******************************************/
+header {
+    width: 100%;
+    margin: auto;
+    padding: 12px;
+}
+
+.nav-logo {
+    width: 75px;
+}
+
+/******************************************
+/* Main
+/*******************************************/
+
+.main-signin {
+    width: 90%;
+    min-height: 550px;
+    margin: auto;
+}
+
+.main-signin h1 {
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.email, .password {
+    border: none;
+    border-radius: 4px;
+    background: rgba(45, 45, 45);
+    outline: none;
+    color: #fff;
+    padding: 20px 16px;
+    margin-top: 16px;
+    width: 100%;
+    height: 48px; 
+    font-size: 1.4rem;
+}
+
+.submit {
+    padding: 14px 28px;
+    background: #E50914;
+    color: #fff;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    outline: none;   
+}
+
+.container-signin {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(104, 104, 104);
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+.container-signin label {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.container-signin label > input[type="checkbox"]:not(:checked){
+    background-image: rgb(104, 104, 104);
+}
+
+.main-signin {
+    width: 90%;
+}
+.main-signin div {
+    display: flex;
+    gap: 5px;
+}
+
+.main-signin div h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgb(104, 104, 104);
+}
+
+.main-signin div a {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.main-signin > p {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(104, 104, 104);
+}
+
+.main-signin > p > a{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(0, 100, 229);
+}
+
+footer {
+    border-top: 1px solid rgb(104, 104, 104);
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+footer div {
+    width: 90%;
+    margin: auto;
+}
+
+footer div h3 {
+    color: rgb(104, 104, 104);
+    font-size: 1.6rem;
+    margin: 30px 0;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+footer div ul li{
+    color: rgb(104, 104, 104);
+    width: 100%;
+    max-width: 186px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 4px 0;
+}
+
+footer select {
+    border: 1px solid gray;
+    background: none;
+    color: rgb(104, 104, 104);
+    padding: 12px;
+    width: 120px;
+    margin-top: 20px;
+}
