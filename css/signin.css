@@ -53,6 +53,7 @@ header {
     width: 100%;
     margin: auto;
     padding: 8px;
+    max-width: 1200px;
 }
 
 .nav-logo {
