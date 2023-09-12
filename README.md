@@ -55,6 +55,6 @@ Contributions to the Netflix Clone project are welcome. If you'd like to contrib
 
 ## License
 
-The Netflix Clone website is open-source and available under the MIT License. Feel free to use, modify, and distribute it according to the terms of the license.
+The Netflix Clone website is a personal project and not open-source. All rights are reserved.
 
 Thank you for visiting the Netflix Clone website! We hope you enjoy exploring the world of movies and TV shows.
